@@ -18,9 +18,9 @@ public class Main {
         c1.deposita(100.0);
 
         ContaPoupanca c2 = new ContaPoupanca(rene);
-        c2.deposita(200.0);
+        c2.deposita(300.0);
 
-        c1.transfere(10.0, cp);
+        c1.transfere(10.0, c2);
 
         
         System.out.println("***********************");
